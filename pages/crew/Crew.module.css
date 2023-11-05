@@ -1,0 +1,71 @@
+.page {
+  background-image: url(../../assets//images/crew/background-crew-desktop.jpg);
+}
+.page-container {
+  min-height: calc(100vh - var(--main-padding-top) - 2.5em);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.page-container__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+.page-container__right {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.member-img {
+  width: 30vw;
+  height: 69.5vh;
+}
+@media (max-width: 980px) {
+  .page-container {
+    grid-template-columns: 1fr;
+    align-items: flex-end;
+  }
+  .page-container__left {
+    margin: 0 auto;
+    max-width: 95%;
+    text-align: center;
+    align-items: center;
+    gap: 2em;
+  }
+  .member-img {
+    width: 55vw;
+    height: 45vh;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-container {
+    padding-top: 2em;
+    min-height: 0;
+    padding-bottom: 1em;
+    align-items: center;
+  }
+  .page-container__left {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding-top: 1em;
+    gap: 2em;
+    border-top: solid 1px var(--gray);
+  }
+  .page-container__right {
+    grid-row: 1;
+  }
+  .member-img {
+    width: 50vw;
+    height: 35vh;
+  }
+}
+@media (max-width: 440px) {
+  .member-img {
+    height: 25vh;
+  }
+}

@@ -1,0 +1,39 @@
+.container {
+  padding: 0 2em;
+  width: 100%;
+}
+.upper-container {
+  border-bottom: var(--gray) solid 1px;
+}
+.field-container {
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em 10em;
+  border-radius: var(--border-rad);
+  background: var(--bgr-clr);
+  font-family: var(--ff-heading);
+  font-size: var(--fs-600);
+}
+.price {
+  margin-top: 0.5em;
+  font-size: var(--fs-800);
+  text-align: center;
+  font-family: var(--ff-heading);
+}
+.planet,
+.plan {
+  text-transform: uppercase;
+}
+
+@media (max-width: 740px) {
+  .field-container {
+    padding: 0.25em 5em;
+  }
+}
+@media (max-width: 560px) {
+  .field-container {
+    flex-wrap: wrap;
+    padding: 0.25em 1em;
+  }
+}

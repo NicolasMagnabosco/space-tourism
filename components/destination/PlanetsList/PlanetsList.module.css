@@ -1,0 +1,16 @@
+.planets-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3em;
+}
+
+@media (max-width: 820px) {
+  .planets-link {
+    justify-content: center;
+  }
+}
+@media (max-width: 440px) {
+  .planets-list {
+    gap: 0.75em;
+  }
+}

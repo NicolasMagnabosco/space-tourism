@@ -1,0 +1,15 @@
+.radio-option-container {
+  background-color: var(--bgr-clr);
+  padding: 1em;
+  text-align: center;
+  border-radius: var(--border-rad);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.radio-option-container--active {
+  outline: 4px solid var(--gray);
+}
+.radio-option-container:hover {
+  background-color: var(--dark-gray-transparent);
+  transform: scale(1.2);
+}

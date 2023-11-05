@@ -1,0 +1,27 @@
+.planet-selection-container {
+  width: 100%;
+}
+.planet-name {
+  text-transform: uppercase;
+  padding-top: 0.5em;
+  border-top: solid 1px var(--gray);
+}
+.planet-img {
+  margin-bottom: 0.5em;
+  width: 150px;
+}
+
+@media (max-width: 980px) {
+  .planet-selection-container label {
+    margin-top: 2em;
+    flex-basis: 40%;
+  }
+}
+@media (max-width: 440px) {
+  .planet-selection-container label {
+    flex-basis: 60%;
+  }
+  .planet-selection-container label:last-child {
+    margin-bottom: 2em;
+  }
+}

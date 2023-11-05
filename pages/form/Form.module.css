@@ -1,0 +1,12 @@
+.page {
+  background-image: url(../../assets/images/crew/background-crew-desktop.jpg);
+}
+.page-heading {
+  color: var(--white);
+}
+.page-container {
+  min-height: 65vh;
+  background-color: var(--bgr-clr);
+  backdrop-filter: blur(var(--blur));
+  border-radius: var(--border-rad);
+}

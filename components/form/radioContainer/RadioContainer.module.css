@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+}
+.options-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.error-message {
+  left: 21%;
+  bottom: 4%;
+  position: absolute;
+  margin: 1em auto;
+  text-align: center;
+  width: 60%;
+}

@@ -1,0 +1,25 @@
+.phase-information {
+  max-width: 70%;
+}
+.phase-information__introduction {
+  font-size: var(--fs-600);
+  font-family: var(--ff-heading);
+  font-weight: var(--fw);
+  letter-spacing: 0.1em;
+  color: var(--gray);
+}
+.phase-information__name {
+  text-transform: uppercase;
+  margin: 0.5em 0;
+  font-weight: var(--fw);
+  font-size: var(--fs-900);
+}
+.phase-information__description {
+  font-family: var(--ff-heading);
+}
+
+@media (max-width: 830px) {
+  .phase-information {
+    max-width: 100%;
+  }
+}

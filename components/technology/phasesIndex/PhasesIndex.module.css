@@ -1,0 +1,6 @@
+@media (max-width: 830px) {
+  .phases-container {
+    display: flex;
+    gap: 2em;
+  }
+}

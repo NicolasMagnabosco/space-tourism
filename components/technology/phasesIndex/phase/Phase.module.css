@@ -1,0 +1,26 @@
+.phase {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  border: solid var(--gray) 1px;
+  font-family: var(--ff-heading);
+  background-color: transparent;
+  color: var(--white);
+  cursor: pointer;
+}
+.phase:hover {
+  background-color: var(--btn-bgr);
+}
+.phase--active {
+  border-color: transparent;
+  background-color: var(--white);
+  color: #000000;
+}
+.phase--active:hover {
+  background-color: var(--white);
+}
