@@ -2,10 +2,18 @@
 import Link from "next/link";
 // styles
 import styles from "./Home.module.css";
-
 export default function Home() {
   return (
     <div className={`page ${styles.page}`}>
+      <video
+        className={styles["background-video"]}
+        loop
+        autoPlay
+        muted
+        preload="none"
+      >
+        <source src="/bgvideo.mp4" type="video/mp4" />
+      </video>
       <div className={styles["page-container"]}>
         <section aria-labelledby="hero-section" className={styles.hero}>
           <h1 className={styles.heading}>

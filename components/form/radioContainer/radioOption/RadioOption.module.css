@@ -5,11 +5,12 @@
   border-radius: var(--border-rad);
   cursor: pointer;
   transition: 0.2s ease;
+  margin: 1.2em 0;
 }
 .radio-option-container--active {
   outline: 4px solid var(--gray);
 }
 .radio-option-container:hover {
   background-color: var(--dark-gray-transparent);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }

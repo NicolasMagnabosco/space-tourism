@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import styles from "./Step.module.css";
-import { FORM_HEADINGS, formStepsIndex } from "@/constants/form";
+import { FORM_HEADINGS, FormStepsIndex } from "@/constants/form";
 
 export default function Step({
   children,
@@ -10,7 +10,7 @@ export default function Step({
   isLastStep,
 }: {
   children: ReactNode;
-  currentStep: formStepsIndex;
+  currentStep: FormStepsIndex;
   onNextStep: () => void;
   onPrevStep: () => void;
   isLastStep: () => boolean;
